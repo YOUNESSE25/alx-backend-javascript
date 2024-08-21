@@ -1,4 +1,4 @@
-/**small HTTP server */
+/** small HTTP server */
 const http = require('http');
 const { readFile } = require('fs');
 

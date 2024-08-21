@@ -1,4 +1,4 @@
-/**small HTTP server using Express */
+/** small HTTP server using Express */
 const express = require('express');
 
 const { readFile } = require('fs');

@@ -1,4 +1,4 @@
-/**function countStudents */
+/** function countStudents */
 const { readFile } = require('fs');
 
 function countStudents(fileName) {
