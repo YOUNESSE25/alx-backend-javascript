@@ -6,11 +6,11 @@ const assert = require("assert");
 
 describe("sendPaymentRequestToApi", function() {
     it("check that Utils.calculateNumber was called once", function() {
-	const Spy = sinon.Spy(Utils, "calculateNumber");
+	const spy = sinon.spy(Utils, "calculateNumber");
 
 	sendPaymentRequestToApi(50, 24.52);
 
-	assert(Spy.calledOnce);
-	Spy.restore();
+	assert(spy.calledOnce);
+	spy.restore();
     });
 });
